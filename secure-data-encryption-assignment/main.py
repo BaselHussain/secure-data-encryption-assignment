@@ -5,7 +5,6 @@ import json
 import os
 import time
 from base64 import urlsafe_b64encode
-from key_handler import get_key
 from hashlib import pbkdf2_hmac
 
 
