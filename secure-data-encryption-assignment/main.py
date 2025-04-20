@@ -77,9 +77,7 @@ choice = st.sidebar.selectbox("Navigation", menu)
 
 
 
-if st.session_state.failed_attempts >= 3:
-    st.session_state.current_page = "Login"
-    st.warning("🔒 Too many failed attempts! Reauthorization required.")
+
 
 if choice == "Home":
     st.subheader("🏠 Welcome to the Secure Data System")
